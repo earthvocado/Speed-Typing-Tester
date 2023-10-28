@@ -33,7 +33,7 @@ while True:
     t1 = time.time()
 
     if input_text == '0':
-        print("Good Bye")
+        print("กลับมาฝึกบ่อยๆนะ")
         break
 
     correct_words = len(set(input_text.split())&set(string.split()))
